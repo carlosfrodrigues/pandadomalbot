@@ -1,10 +1,8 @@
-# Panda do Mal Bot
+# pandadomalbot
 
-O Panda do Mal Bot foi pensado para as lives do canal da [Levxyca](https://twitch.tv/levxyca).
+> O **pandadomalbot** foi pensado para as lives do canal da [levxyca](https://twitch.tv/levxyca). Foi criado para divertir e alegrar o chat da melhor live da galacta. Faz brincadeiras, ajuda a streamer e entretem seus queridos amigos.
 
-# Desenvolvimento
-
-## Executando o bot localmente
+## ☕ Usando pandadomalbot
 
 Para executar este projeto, você precisa do [NodeJS](https://nodejs.org/en/download/) instalado e um token de acesso para uma conta existente na Twitch. Pode-se utilizar usa própria conta para testes, mas o ideal é ter uma exclusiva para o bot.
 
@@ -22,78 +20,26 @@ npm run start
     Bot is running at irc-ws.chat.twitch.tv:80
 ```
 
-## Contribuindo
+## 📫 Contribuindo para pandadomalbot
 
-- Faça o fork desse repositório em sua conta do GitHub.
-- Clone o seu fork no seu ambiente e crie uma branch a partir da `main`.
-- Faça o commit das suas alterações e envie um novo pull request tendo a branch `main` como destino.
+Para contribuir com _pandadomalbot_, siga estas etapas:
 
-# Comandos
+1. Faça o fork desse repositório em sua conta do GitHub.
+2. Clone o seu fork no seu ambiente e crie uma branch a partir da `main`.
+3. Faça o commit das suas alterações e envie um novo pull request tendo a branch `test` como destino.
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
 
-As categorias de comandos do bot são as seguintes:
+Caso tenha dificuldades, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-1. [Geral](#geral)
-2. [Donate e Sub](#donate)
-3. [Social](#social)
 
-## Geral
+## 😄 Seja um dos contribuidores<br>
 
-### !ban
+Quer fazer parte desse projeto? Você pode nos ajudar criando issues novas, caso encontre erros ou também nos mandando sugestões de funcionalidades novas. Fique a vontade para verificar as issues já existentes e resolve-lás, basta comentar na issue que você irá fazer ela.
 
-Digite o comando `!ban` com o nome da pessoa.
+## 📝 Licença
 
-Exemplo:
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
 
-`!ban levxyca`
+[⬆ Voltar ao topo](#pandadomalbot)<br>
 
-ou
-
-`!ban @levxyca`
-
-### !comandos
-
-Lista todos os comandos já existentes.
-
-### !pergunta
-
-Faça uma pergunta para a vida o universo e tudo mais.
-
-Exemplo:
-
-`!pergunta vai ter sorteio hoje?`
-
-## Donate e Sub
-
-### !donate
-
-Link para fazer donate pela twitch.
-
-### !prime
-
-Link para dar um sub no canal via Amazon Prime.
-
-### !picpay
-
-Link para doar através do PicPay.
-
-### !sub
-
-Link para dar sub no canal.
-
-## Social
-
-Nesta categoria estão diversos comandos que direcionam para as redes da Levxyca:
-
-### !social
-
-Retorna os links para todas as redes da streamer.
-
-### !telegram
-
-### !discord
-
-### !fofinhos
-
-Link para um grupo de WhatsApp onde se pode enviar imagens e vídeos de bichinhos fofinhos para alegrar seu dia.
-
-### !github
+---

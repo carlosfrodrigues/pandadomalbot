@@ -4,8 +4,14 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "nodemon bot.js",
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
     "lint": "eslint ."
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.json"
+    ]
   },
   "repository": {
     "type": "git",
@@ -19,7 +25,11 @@
   },
   "homepage": "https://github.com/levxyca/pandadomalbot#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^3.0.3",
     "tmi.js": "^1.5.0"
   },
   "devDependencies": {
